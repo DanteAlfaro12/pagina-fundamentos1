@@ -1,0 +1,42 @@
+<html>
+<head>
+<body>
+<title>Protocolo HTTP</title>
+<div>
+<h1>Protocolo HTTP (Hyper Text Transfer protocol). FUNCIONAMIENTO</h1>
+<p>HTTP, de sus siglas en inglés "Hypertext Transfer Protocol", es un protocolo de transferencia de datos que permite la comunicación entre clientes y servidores en la web. Fue diseñado a principios de la década de 1990 y es un protocolo ampliable que ha ido evolucionando con el tiempo. Es un protocolo de la capa de aplicación y se transmite sobre el protocolo TCP o el protocolo cifrado TLS. HTTP es fácilmente interpretable por las personas, lo que facilita la depuración de errores </p>
+<p>HTTP implementa varios métodos de petición que cumplen con diferentes funciones, como GET, POST, PUT, PATCH y DELETE. GET se utiliza para leer/recuperar datos de un servidor web, mientras que POST se utiliza para enviar datos al servidor.</p>
+<p>Las respuestas HTTP se devuelven con un código de estado que indica el estado de la solicitud. Los códigos de estado HTTP incluyen 1xx (Informativo), 2xx (Éxito), 3xx (Redirección), 4xx (Error del cliente) y 5xx (Error del servidor). Algunos códigos de estado HTTP comunes incluyen 200 OK, 201 Creado, 400 Solicitud incorrecta, 404 No encontrado y 500 Error interno del servidor.</p>
+</div>
+<div>
+<h2><b>estructura y funcionamiento</b></h2>
+<p>HTTP, que significa Protocolo de transferencia de hipertexto, es un protocolo que permite a clientes y servidores comunicarse entre sí a través de Internet. Es un protocolo de la capa de aplicación y se transmite a través del protocolo TCP o el protocolo TLS cifrado. HTTP está diseñado para que las personas lo lean e interpreten fácilmente, lo que facilita la depuración de errores y reduce la curva de aprendizaje para quienes son nuevos en él. HTTP es extensible y se pueden desarrollar nuevas funcionalidades sin cambiar el protocolo base.</p>
+<p>Los mensajes HTTP se componen de información textual codificada en ASCII y se componen de una línea de inicio, encabezados opcionales y una línea en blanco que indica que se ha enviado toda la metainformación de la solicitud. Hay dos tipos de mensajes HTTP: solicitudes y respuestas, cada uno con su propio formato. Las solicitudes HTTP especifican qué acción se realizará en un recurso en particular y las respuestas HTTP se devuelven con un código de estado que indica el estado de la solicitud.</p>  
+<p>Las respuestas HTTP se devuelven con un código de estado que indica el estado de la solicitud. El código de estado es un número de tres dígitos que indica la categoría de respuesta. Los códigos de estado HTTP incluyen 1xx (Informativo), 2xx (Exitoso), 3xx (Redirección), 4xx (Error del cliente) y 5xx (Error del servidor). Algunos códigos de estado HTTP comunes incluyen 200 OK, 201 Creado, 400 Solicitud incorrecta, 404 No encontrado y 500 Error interno del servidor.</p>  
+</div>
+<div>
+  <h2><b>metodos de peticion</b></h2>  
+  <p>HTTP define un conjunto de métodos de solicitud para indicar la acción deseada que se realizará para un recurso determinado. Estos métodos a veces se denominan verbos HTTP. Los métodos de solicitud HTTP más utilizados son:</p>
+  <p><li>GET : Se utiliza para leer/recuperar datos de un servidor web. GET devuelve un código de estado HTTP de 200 (OK) si los datos se recuperan correctamente del servidor.</li></p>
+<p><li>POST : Se utiliza para enviar datos (archivo, datos de formulario, etc.) al servidor. Tras una creación exitosa, devuelve un código de estado HTTP de 201.</li></p>
+<p><li>PUT : se utiliza para reemplazar todas las representaciones actuales del recurso de destino con la carga útil de la solicitud.</li></p>
+<p><li>PATCH : Se utiliza para aplicar modificaciones parciales a un recurso.</li></p>
+<p><li>ELIMINAR : Se utiliza para eliminar el recurso especificado.</li></p>
+</div>
+<div>
+    <h2>codigos de respuesta del protocolo HTTP</h2>
+    <p>Las respuestas HTTP se devuelven con un código de estado que indica el estado de la solicitud. El código de estado es un número de tres dígitos que indica la categoría de respuesta. Los códigos de estado HTTP incluyen:</p>
+<p><li>1xx (Informativo) : Son mensajes informativos que indican que la solicitud ha sido recibida y está siendo procesada. Los ejemplos incluyen 100 protocolos de continuación y 101 de conmutación.</li></p>
+<p><li>2xx (Exitoso) : Indican que la solicitud fue recibida, comprendida y aceptada exitosamente. Los ejemplos incluyen 200 OK y 201 Creado.</li></p>
+<p><li>3xx (Redirección) : indican que se deben tomar medidas adicionales para completar la solicitud. Los ejemplos incluyen 301 movido permanentemente y 302 encontrado.</li></p>
+<p><li>4xx (Error del cliente) : indican que la solicitud contiene una sintaxis incorrecta o no se puede cumplir. Los ejemplos incluyen 400 Solicitud incorrecta y 404 No encontrado.</li></p>
+<p><li>5xx (Error del servidor) : Indican que el servidor no pudo cumplir con una solicitud aparentemente válida. Los ejemplos incluyen Error interno del servidor 500 y Servicio 503 no disponible.</li></p>
+<p><li>200 OK : La solicitud se realizó correctamente.</li></p>
+<p><li>201 Creado : La solicitud se cumplió, lo que resultó en la creación de un nuevo recurso.</li></p>
+<p><li>400 Solicitud incorrecta : el servidor no puede o no procesará la solicitud debido a un aparente error del cliente.</li></p>
+<p><li>404 No encontrado : el servidor no puede encontrar el recurso solicitado.</li></p>
+<p><li>500 Error interno del servidor : un mensaje de error genérico, que se muestra cuando se encuentra una condición inesperada y no es adecuado ningún mensaje más específico.</li></p>
+
+</div>
+</body>
+</head>
